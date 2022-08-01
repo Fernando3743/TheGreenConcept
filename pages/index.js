@@ -1,6 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
+import Footer from "../components/footer/Footer";
 import Header from "../components/Header";
+import Products from "../components/Products";
 import Slider from "../components/Slider";
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       </Head>
       <Header />
       <Slider images={slides} />
+      <Products />
+      <Footer />
     </div>
   );
 }
